@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de CEP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="container">
+    <h1>Consulta de CEP</h1>
+ 
+    <input
+      type="text"
+      id="cep"
+      placeholder="Digite o CEP (somente números)"
+      maxlength="8"
+    >
+ 
+    <div class="botoes">
+      <button onclick="buscarCep()">Buscar</button>
+      <button class="limpar" onclick="limpar()">Limpar</button>
+    </div>
+ 
+    <div id="resultado"></div>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
